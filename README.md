@@ -4,8 +4,8 @@
 打开地址 [示例](kong-jing.github.io/qianduan)
 
 
-[下标的css](kong-jing.github.io/qianduan/cssxiabiao.html)
-[粒子效果的canvas](kong-jing.github.io/qianduan/paticle.html)
+[下标的css](cssxiabiao.html)
+[粒子效果的canvas](paticle.html)
 ### Markdown
 
 ```markdown
