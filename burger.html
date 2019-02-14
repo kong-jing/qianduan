@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>cheesburger</title>
+        <style>
+          .burger::before {
+            content: "      ▾";
+            display: block;
+
+            /* ▾颜色和尺寸 */
+            color: #fddb28;
+            font-size: 120px;
+            white-space: pre;
+            line-height: 25px;
+            /* 两片面包间隔的距离     */
+            width: 400px;
+            height: 55px;
+
+            /* 上层面包 */
+            border-top: 80px solid #f5b230;
+            /* 下层面包 */
+            border-bottom: 50px solid #f5b230;
+
+            /* 新内容 */
+            border-radius: 30% 30% 20% 20%;
+          }
+          .burger {
+            /* 尺寸 */
+            width: 380px;
+            height: 40px;
+            /* 颜色和形状 */
+            border-radius: 15px;
+            box-shadow: 
+                10px 50px #fddb28,
+                /* 奶酪 */
+                10px 85px #681f24,
+                /* 肉类 */
+                10px 120px #82af15;
+        
+          }
+          .burger::after {
+            content: "";
+            display: block;
+            /* 尺寸和形状 */
+            width: 10px;
+            height: 6px;
+            border-radius: 40%;
+            box-shadow: 
+                100px -165px #ffffff,
+                160px -165px #ffffff,
+                230px -165px #ffffff,
+                290px -165px #ffffff,
+                180px -165px #ffffff,
+                200px -165px #ffffff,
+
+                /* 底行 */
+                60px -135px #ffffff,
+                125px -135px #ffffff,
+                190px -135px #ffffff,
+                255px -135px #ffffff,
+                330px -135px #ffffff;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="burger"></div>
+    </body>
+</html>
